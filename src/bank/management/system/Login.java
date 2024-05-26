@@ -12,7 +12,7 @@ public class Login extends JFrame implements ActionListener{
 	JPasswordField pin1;
 	Login(){
             setLayout(null);
-	setTitle("STATE BANK OF INDIA LALGANJ");
+	setTitle("Online Banking");
      ImageIcon icon=new ImageIcon(getClass() .getResource("rr.png"));
 	Image i1=icon.getImage().getScaledInstance(100,100, Image.SCALE_DEFAULT);
 	ImageIcon i3=new ImageIcon(i1);
@@ -21,7 +21,7 @@ public class Login extends JFrame implements ActionListener{
 	label.setBackground(Color.WHITE);
 	add(label);
         
-        JLabel text = new JLabel("WELCOME TO SBI (Lalganj,Valishali)");
+        JLabel text = new JLabel("WELCOME TO Online Banking");
         text.setFont(new Font("Osward",Font.BOLD,30));
         text.setBounds(200, 40, 600, 40);
         text.setBackground(Color.GRAY);
